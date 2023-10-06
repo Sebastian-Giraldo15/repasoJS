@@ -8,9 +8,17 @@ git push -u origin main
 
 
 
-Vincular el proyecto
+Vincular el proyecto local a github
 git init
 git add .
 git commit -m "Primer Commit"
 git config user.email "sebastiangiraldolopez7@gmail.com"
 git config user.name "Sebastian-Giraldo15"
+git remote add origin https://github.com/Sebastian-Giraldo15/repasoJS.git
+git push -u origin main
+
+
+Como actualizar el respositorio
+git add .
+git commit -m "Segundo Commit"
+git push -u origin master
