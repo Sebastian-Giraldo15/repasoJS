@@ -22,3 +22,6 @@ Como actualizar el respositorio
 git add .
 git commit -m "Segundo Commit"
 git push -u origin master
+
+Clonar
+git clone https://github.com/Sebastian-Giraldo15/repasoJS.git
